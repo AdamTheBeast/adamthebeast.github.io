@@ -1,20 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-</head>
-<body>
-    <header>
-        <h1>Adams portfolio</h1>
-    </header>
-    <nav>
+    <link href="https://fonts.googleapis.com/css?family=Unlock" rel="stylesheet">
+    <link rel="stylesheet" href="Hällbarenergi.css">
+    
 
-    </nav>
-    <main>
-        
-    </main>
-</body>
-</html>
+<html><head>
+    <title>Example</title>
+    <style>
+      * {
+        box-sizing: border-box; 
+      }
+      body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: row;
+        margin: 0;
+      }
+      .col-1 {
+        background: rgb(188, 194, 187);
+        flex: 1;
+      }
+      .col-2 {
+        display: flex;
+        flex-direction: column;
+        flex: 5;
+      }
+      .content {
+        display: flex;
+        flex-direction: row;
+      }
+      .content > article {
+        flex: 4;
+        min-height: 60vh;
+      }
+      header, footer {
+        height: 20vh;
+      }
+      header, footer, article, nav {
+        padding: 1em;
+      }
+    </style>
+    </head><body>
+      <nav class="col-1">Adam Nasser</nav>
+      <div class="col-2">
+          <header>Allmän information</header>
+        <main class="content">
+        <article>Artikel</article>
+        </main>
+          <footer>Länkar</footer>
+      </div>
+      <link href="https://www.ntigymnasiet.se/sodertorn/?gclid=EAIaIQobChMI89HM8ca44QIVwkkYCh1XXAwbEAAYASAAEgLMRPD_BwE" alt="NTI Gymnasiet">
+
+     </body>
+     </html>
