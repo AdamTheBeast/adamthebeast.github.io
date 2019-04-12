@@ -13,6 +13,7 @@
 <html><head>
     <title>Example</title>
     <style>
+      
       * {
         box-sizing: border-box; 
       }
@@ -21,9 +22,13 @@
         min-height: 100vh;
         flex-direction: row;
         margin: 0;
+
+        background-image: url("C:\\Users\\adam.nasser1\\Desktop\\milky-way.jpg") !important;
+        background-size: 100% 100%;
+        color: white;
       }
       .col-1 {
-        background: rgb(188, 194, 187);
+        background: rgba(91, 81, 231, 0.5);
         flex: 1;
       }
       .col-2 {
@@ -44,18 +49,42 @@
       }
       header, footer, article, nav {
         padding: 1em;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+
+      }
+
+      a {
+        color:white;
       }
     </style>
     </head><body>
-      <nav class="col-1">Adam Nasser</nav>
+      <nav class="col-1">
+      <img src="C:\Users\adam.nasser1\Desktop\Läxor\root\Adam Nasser.jpg" alt= "Adam Nasser"
+      height="250">  
+      <h1>ADAM NASSER</h1>
+      <h1>ELEV I SÖDERTÄLJE NTI-Gymnasium ÅR 2</h1>
+      <h1><a href="http://www.ntigymnasiet.se/.">NTI-Gymnasium</a></h1>
+
+      </nav>
       <div class="col-2">
-          <header>Allmän information</header>
+          <header><h1>Allmän information om hemsidan:</h1></header>
         <main class="content">
-        <article>Artikel</article>
         </main>
-          <footer>Länkar</footer>
-      </div>
-      <link href="https://www.ntigymnasiet.se/sodertorn/?gclid=EAIaIQobChMI89HM8ca44QIVwkkYCh1XXAwbEAAYASAAEgLMRPD_BwE" alt="NTI Gymnasiet">
+          <footer><h1>Länkar till hemsidorna jag görde:</h1></footer>
+          <ul>
+          <li><h1><a href="internethisoria.html">Internet histora</a></h1></li>
+          <li><h1><a href="om-mig-adam.html">Om mig hemsidan</a><h1></li>
+          <li><h1><a href="internetlagar.html">Internet lagarna</a></h1></li>
+          <li><h1><a href="https://ntisod.github.io/te17-7-hallbar-energi-for-alla/">gfhj</a></h1></li>
+          <li></li>
+          </ul>
+
+  
+ </div>
 
      </body>
      </html>
+     
