@@ -6,3 +6,4 @@ Låt inte din css ligga kvar i html-filen utan placera den i en extern css-fil, 
 Där du har elementet nav borde du ha elementet header.
 Ditt element footer borde nog bytas ut mot nav.
 Din div borde förmodligen bytas ut mot main.
+Flytta bilden på dig och ändra sökvägen så att den hittas.
