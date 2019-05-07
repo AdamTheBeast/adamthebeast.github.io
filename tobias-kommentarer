@@ -1,0 +1,8 @@
+2019-05-07
+Snyggt med bakgrundsbild.
+Byt namn på titeln.
+Byt namn på filen Hällbarenergi.css. Använd inte stora bokstäver och inte åäö.
+Låt inte din css ligga kvar i html-filen utan placera den i en extern css-fil, exempelvis den du har, efter att du bytt namn förstås.
+Där du har elementet nav borde du ha elementet header.
+Ditt element footer borde nog bytas ut mot nav.
+Din div borde förmodligen bytas ut mot main.
