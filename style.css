@@ -9,6 +9,8 @@ h1 {
 
 }
 
+
+/* tabeller */
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
@@ -25,3 +27,4 @@ border-collapse: collapse;
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+
